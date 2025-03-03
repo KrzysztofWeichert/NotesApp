@@ -1,0 +1,203 @@
+:root {
+    --dark-blue: rgb(61, 83, 128);
+    --light-blue: rgb(72, 101, 156);
+}
+
+body {
+    background-color: rgb(201, 233, 255);
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    z-index: -10;
+    position: relative;
+}
+
+.message p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+header {
+    background-color: var(--light-blue);
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 35px;
+}
+
+main {
+    z-index: -2;
+    position: relative;
+}
+
+aside {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 105px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 35px;
+    background-color: var(--dark-blue);
+    z-index: -1;
+}
+
+a {
+    color: rgb(223, 255, 255);
+    font-size: 1.4rem;
+    line-height: 50px;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+i {
+    margin-right: 4px;
+}
+
+footer {
+    background-color: var(--light-blue);
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.add_form ul {
+    list-style-type: none;
+}
+
+.add_title {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.add_desc {
+    resize: horizontal;
+    width: 95%;
+}
+
+.add_form li {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.add_form span {
+    color: red;
+}
+
+.add_btn {
+    border: 1px solid var(--dark-blue);
+    background-color: var(--light-blue);
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+section {
+    background-color: rgb(230, 245, 255);
+    width: 55%;
+    margin: 40px auto 0 auto;
+    padding: 20px 60px;
+    border: 1px solid var(--dark-blue);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--dark-blue);
+    font-size: 2rem;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: rgb(201, 233, 255);
+    ;
+}
+
+.table-title {
+    width: 50%;
+}
+
+th {
+    border: 1px solid var(--dark-blue);
+    padding: 8px;
+    background-color: var(--light-blue);
+    color: white;
+
+}
+
+td {
+    text-align: left;
+    border: 1px solid var(--dark-blue);
+    padding: 3px;
+}
+
+.table-options,
+.note-details th {
+    width: 20%;
+    text-align: center;
+}
+
+button,
+.delete-btn,
+.search-btn {
+    background-color: var(--light-blue);
+    color: white;
+    border: 1px solid var(--dark-blue);
+    margin: 10px 5px 0 0;
+}
+
+
+button a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.details-btn {
+    margin: 5;
+    cursor: pointer;
+}
+
+th:nth-child(2) {
+    width: 50%;
+}
+
+.delete-form {
+    text-align: center;
+}
+
+.delete-form button,
+.delete-btn {
+    font-size: 1.5rem;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    background-color: var(--light-blue);
+    padding: 0 7px;
+    color: white;
+    text-decoration: none;
+}
